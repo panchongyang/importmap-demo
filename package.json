@@ -14,6 +14,7 @@
   },
   "scripts": {
     "build:lib": "vite build --config vite.config.lib.ts",
-    "build": "vite build"
+    "build:app": "vite build",
+    "build": "npm run build:app && npm run build:lib"
   }
 }
