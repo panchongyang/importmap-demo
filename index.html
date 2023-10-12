@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vue</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- 该段代码不参与打包，打包完成后取消注释用与模拟用户设计的插件  -->
+    <!-- <script type="module">
+      import React from 'react';
+      import ReactDOM from "react-dom";
+      import {DatePicker, ConfigProvider} from 'antd';
+      import zhCN from 'antd/locale/zh_CN.js';
+      ReactDOM.render(React.createElement(ConfigProvider, { locale: zhCN }, React.createElement(DatePicker, {}, null)), document.getElementById('plugin-root'));
+      
+    </script> -->
+    <script type="module" src="./index.tsx"></script>
+  </body>
+</html>
